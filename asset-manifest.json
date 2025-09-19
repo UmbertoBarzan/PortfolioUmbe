@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/PortfolioUmbe/static/css/main.61fd1737.css",
+    "main.js": "/PortfolioUmbe/static/js/main.e52d2385.js",
+    "static/js/415.4d6acbeb.chunk.js": "/PortfolioUmbe/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/PortfolioUmbe/static/js/787.1ed0c42c.chunk.js",
+    "static/media/robot.png": "/PortfolioUmbe/static/media/robot.12ff7323f310e21d46a9.png",
+    "static/media/ai_project.png": "/PortfolioUmbe/static/media/ai_project.b08ca4b55045ac0972f0.png",
+    "static/media/visioncheck.png": "/PortfolioUmbe/static/media/visioncheck.e78fd4f4ad1eb8744dbc.png",
+    "static/media/avatar.png": "/PortfolioUmbe/static/media/avatar.addf88f3ee9e25c5b0ea.png",
+    "static/media/home-main.png": "/PortfolioUmbe/static/media/home-main.3a975fd9ebb66340736c.png",
+    "static/media/whoami.png": "/PortfolioUmbe/static/media/whoami.14fc7b9a36f498448109.png",
+    "static/media/1.png": "/PortfolioUmbe/static/media/1.0b0e56e558c18857eda5.png",
+    "static/media/industrial-saw.png": "/PortfolioUmbe/static/media/industrial-saw.47afcac609c325eea5fb.png",
+    "static/media/school_portfolio.png": "/PortfolioUmbe/static/media/school_portfolio.dd4ae9bac566d5349ded.png",
+    "static/media/traffic-simulator.png": "/PortfolioUmbe/static/media/traffic-simulator.519f8904144735d24e12.png",
+    "static/media/Barzan_Umberto_CV.pdf": "/PortfolioUmbe/static/media/Barzan_Umberto_CV.c335f92e589ad23add61.pdf",
+    "static/media/home-bg.jpg": "/PortfolioUmbe/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/logo.png": "/PortfolioUmbe/static/media/logo.f86b45241d655032e9eb.png",
+    "static/media/pre.svg": "/PortfolioUmbe/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/PortfolioUmbe/index.html",
+    "main.61fd1737.css.map": "/PortfolioUmbe/static/css/main.61fd1737.css.map",
+    "main.e52d2385.js.map": "/PortfolioUmbe/static/js/main.e52d2385.js.map",
+    "415.4d6acbeb.chunk.js.map": "/PortfolioUmbe/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/PortfolioUmbe/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61fd1737.css",
+    "static/js/main.e52d2385.js"
+  ]
+}
