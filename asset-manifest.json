@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/PortfolioUmbe/static/css/main.5dd2d840.css",
-    "main.js": "/PortfolioUmbe/static/js/main.1a5ab544.js",
+    "main.css": "/PortfolioUmbe/static/css/main.14201c74.css",
+    "main.js": "/PortfolioUmbe/static/js/main.ee9d5087.js",
     "static/js/415.4d6acbeb.chunk.js": "/PortfolioUmbe/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/PortfolioUmbe/static/js/787.1ed0c42c.chunk.js",
     "static/media/robot.png": "/PortfolioUmbe/static/media/robot.12ff7323f310e21d46a9.png",
+    "static/media/3.png": "/PortfolioUmbe/static/media/3.f69bf709046be3fa825c.png",
+    "static/media/6.png": "/PortfolioUmbe/static/media/6.b15d791f3ba2f2349d49.png",
+    "static/media/4.png": "/PortfolioUmbe/static/media/4.6335c326a568b441f248.png",
     "static/media/ai_project.png": "/PortfolioUmbe/static/media/ai_project.b08ca4b55045ac0972f0.png",
     "static/media/visioncheck.png": "/PortfolioUmbe/static/media/visioncheck.e78fd4f4ad1eb8744dbc.png",
     "static/media/avatar.png": "/PortfolioUmbe/static/media/avatar.addf88f3ee9e25c5b0ea.png",
     "static/media/home-main.png": "/PortfolioUmbe/static/media/home-main.3a975fd9ebb66340736c.png",
     "static/media/whoami.png": "/PortfolioUmbe/static/media/whoami.14fc7b9a36f498448109.png",
+    "static/media/5.png": "/PortfolioUmbe/static/media/5.99ac5bac114ffaf02ce3.png",
+    "static/media/2.png": "/PortfolioUmbe/static/media/2.95280605a3b780757a36.png",
     "static/media/1.png": "/PortfolioUmbe/static/media/1.0b0e56e558c18857eda5.png",
+    "static/media/7.png": "/PortfolioUmbe/static/media/7.88c79e4765c12374bddf.png",
     "static/media/industrial-saw.png": "/PortfolioUmbe/static/media/industrial-saw.47afcac609c325eea5fb.png",
     "static/media/school_portfolio.png": "/PortfolioUmbe/static/media/school_portfolio.dd4ae9bac566d5349ded.png",
     "static/media/traffic-simulator.png": "/PortfolioUmbe/static/media/traffic-simulator.519f8904144735d24e12.png",
@@ -20,13 +26,13 @@
     "static/media/logo.png": "/PortfolioUmbe/static/media/logo.f86b45241d655032e9eb.png",
     "static/media/pre.svg": "/PortfolioUmbe/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/PortfolioUmbe/index.html",
-    "main.5dd2d840.css.map": "/PortfolioUmbe/static/css/main.5dd2d840.css.map",
-    "main.1a5ab544.js.map": "/PortfolioUmbe/static/js/main.1a5ab544.js.map",
+    "main.14201c74.css.map": "/PortfolioUmbe/static/css/main.14201c74.css.map",
+    "main.ee9d5087.js.map": "/PortfolioUmbe/static/js/main.ee9d5087.js.map",
     "415.4d6acbeb.chunk.js.map": "/PortfolioUmbe/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/PortfolioUmbe/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5dd2d840.css",
-    "static/js/main.1a5ab544.js"
+    "static/css/main.14201c74.css",
+    "static/js/main.ee9d5087.js"
   ]
 }
