@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioUmbe/static/css/main.7ea8f1ae.css",
-    "main.js": "/PortfolioUmbe/static/js/main.14025d77.js",
+    "main.css": "/PortfolioUmbe/static/css/main.3bdcea6a.css",
+    "main.js": "/PortfolioUmbe/static/js/main.96008de4.js",
     "static/js/415.4d6acbeb.chunk.js": "/PortfolioUmbe/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/PortfolioUmbe/static/js/787.1ed0c42c.chunk.js",
     "static/media/robot.png": "/PortfolioUmbe/static/media/robot.12ff7323f310e21d46a9.png",
@@ -14,18 +14,19 @@
     "static/media/industrial-saw.png": "/PortfolioUmbe/static/media/industrial-saw.47afcac609c325eea5fb.png",
     "static/media/school_portfolio.png": "/PortfolioUmbe/static/media/school_portfolio.dd4ae9bac566d5349ded.png",
     "static/media/traffic-simulator.png": "/PortfolioUmbe/static/media/traffic-simulator.519f8904144735d24e12.png",
+    "static/media/Barzan_Umberto_CV_EN.pdf": "/PortfolioUmbe/static/media/Barzan_Umberto_CV_EN.9074db7a83e99e4f651e.pdf",
     "static/media/Barzan_Umberto_CV.pdf": "/PortfolioUmbe/static/media/Barzan_Umberto_CV.c335f92e589ad23add61.pdf",
     "static/media/home-bg.jpg": "/PortfolioUmbe/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/logo.png": "/PortfolioUmbe/static/media/logo.f86b45241d655032e9eb.png",
     "static/media/pre.svg": "/PortfolioUmbe/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/PortfolioUmbe/index.html",
-    "main.7ea8f1ae.css.map": "/PortfolioUmbe/static/css/main.7ea8f1ae.css.map",
-    "main.14025d77.js.map": "/PortfolioUmbe/static/js/main.14025d77.js.map",
+    "main.3bdcea6a.css.map": "/PortfolioUmbe/static/css/main.3bdcea6a.css.map",
+    "main.96008de4.js.map": "/PortfolioUmbe/static/js/main.96008de4.js.map",
     "415.4d6acbeb.chunk.js.map": "/PortfolioUmbe/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/PortfolioUmbe/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ea8f1ae.css",
-    "static/js/main.14025d77.js"
+    "static/css/main.3bdcea6a.css",
+    "static/js/main.96008de4.js"
   ]
 }
