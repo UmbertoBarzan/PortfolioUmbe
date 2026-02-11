@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import aiProject from "../../Assets/Projects/ai_project.png";
+import threeDProjects from "../../Assets/Projects/3Dprojects.png";
 import schoolPortfolio from "../../Assets/Projects/school_portfolio.png";
 import { useLanguage } from "../../context/LanguageContext";
 import Particle from "../Particle";
@@ -27,6 +28,14 @@ function Projects() {
           internalLink: "/computer-vision",
           internalLabel: "Explore",
           imgClassName: "project-card-img--compact",
+        },
+        {
+          imgPath: threeDProjects,
+          title: "3D & VR Projects",
+          description:
+            "Immersive experiences built for education and company showcases, from earthquake simulations to 360 video hubs.",
+          internalLink: "/3d-projects",
+          internalLabel: "Explore",
         },
         {
           imgPath: schoolPortfolio,
@@ -55,6 +64,14 @@ function Projects() {
           internalLink: "/computer-vision",
           internalLabel: "Scopri",
           imgClassName: "project-card-img--compact",
+        },
+        {
+          imgPath: threeDProjects,
+          title: "Progetti 3D e VR",
+          description:
+            "Esperienze immersive pensate per formazione e demo aziendali, dal simulatore del terremoto agli hub per video 360.",
+          internalLink: "/3d-projects",
+          internalLabel: "Scopri",
         },
         {
           imgPath: schoolPortfolio,

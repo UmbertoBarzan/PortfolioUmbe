@@ -6,6 +6,8 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import SchoolProjects from "./components/Projects/SchoolProjects";
 import ComputerVisionProjects from "./components/Projects/ComputerVisionProjects";
+import ThreeDProjects from "./components/Projects/ThreeDProjects";
+import ThreeDProjectDetail from "./components/Projects/ThreeDProjectDetail";
 import Resume from "./components/Resume/ResumeNew";
 import { LanguageProvider } from "./context/LanguageContext";
 import {
@@ -39,9 +41,11 @@ function App() {
           <ScrollToTop />
           <Routes>
             <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
-          <Route path="/computer-vision" element={<ComputerVisionProjects />} />
-          <Route path="/school-projects" element={<SchoolProjects />} />
+            <Route path="/project" element={<Projects />} />
+            <Route path="/computer-vision" element={<ComputerVisionProjects />} />
+            <Route path="/3d-projects" element={<ThreeDProjects />} />
+            <Route path="/3d-projects/:slug" element={<ThreeDProjectDetail />} />
+            <Route path="/school-projects" element={<SchoolProjects />} />
             <Route path="/about" element={<About />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="*" element={<Navigate to="/"/>} />

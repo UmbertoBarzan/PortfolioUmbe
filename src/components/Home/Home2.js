@@ -22,9 +22,11 @@ function Home2() {
           and since then I’ve been steadily learning and experimenting.
           <br />
           <br />
-          My main focus so far has been on <b className="purple">computer
-          vision and AI</b>, with a growing curiosity for <b className="purple">
-          3D design</b>. I prefer a practical approach: building small
+          My main focus is now <b className="purple">3D</b>,
+          especially VR. I enjoy building interactive environments with
+          Unreal Engine and Blender, while my background in
+          <b className="purple"> computer vision</b> helps me approach problems
+          in a structured way. I prefer a practical approach: building small
           projects, testing ideas, and improving step by step.
           <br />
           <br />
@@ -48,10 +50,13 @@ function Home2() {
           fa e, da allora, porto avanti un percorso di apprendimento continuo.
           <br />
           <br />
-          Il mio focus principale è la <b className="purple">computer vision e l'AI</b>,
-          con un interesse crescente per il <b className="purple">design 3D</b>.
-          Preferisco un approccio pratico: costruire piccoli progetti,
-          sperimentare idee e migliorarmi gradualmente.
+          Il mio focus ora è lo <b className="purple">sviluppo 3D</b>,
+          soprattutto in VR. Mi piace creare ambienti interattivi con Unreal
+          Engine e Blender, e l'esperienza in
+          <b className="purple"> computer vision</b> mi aiuta ad affrontare i
+          problemi in modo strutturato. Preferisco un approccio pratico:
+          costruire piccoli progetti, sperimentare idee e migliorarmi
+          gradualmente.
           <br />
           <br />
           Lavoro soprattutto con <b className="purple">Python</b> e sto

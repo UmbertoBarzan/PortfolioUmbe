@@ -13,24 +13,23 @@ function AboutCard() {
           Hi Everyone, I am <span className="purple">Umberto Barzan</span>{" "}
           from
           <span className="purple"> Italy</span>.
-          <br />I am focusing on{" "}
-          <b className="purple">AI, Computer Vision, and IoT</b>, learning
-          step by step through real projects and practical experience.
+          <br />I am focusing on <b className="purple">3D</b>, building
+          interactive environments and VR experiences with Unreal Engine and
+          Blender.
           <br />
-          My background in mechanics and my curiosity for technology led me
-          into <b className="purple">industrial automation</b> and
-          <b className="purple"> 3D/creative tools</b> such as Blender and
-          Lightroom.
+          My background in mechanics and IT, plus hands-on work in
+          <b className="purple"> computer vision</b>, gives me a structured,
+          problem-solving approach when designing immersive projects.
           <br />
           <br />
-          Apart from coding and AI, I also enjoy working on 3D projects,
-          experimenting with digital art, and exploring new technologies.
+          I enjoy combining logic and creativity, experimenting with XR
+          workflows, and pushing real-time visuals a bit further each project.
         </>
       ),
       activities: [
-        "Computer Vision & AI inspection projects",
-        "IoT & industrial automation experiments",
-        "3D graphics and digital creativity",
+        "3D & VR experiences in Unreal Engine",
+        "Blender modeling and real-time scene setup",
+        "Computer vision/AI for interactive systems",
       ],
       quote: "Always learning, building, and growing step by step.",
     },
@@ -39,24 +38,23 @@ function AboutCard() {
         <>
           Ciao a tutti, sono <span className="purple">Umberto Barzan</span>{" "}
           e vivo in <span className="purple">Italia</span>.
-          <br />Mi sto concentrando su
-          <b className="purple"> AI, Computer Vision e IoT</b>, imparando
-          attraverso progetti concreti ed esperienza sul campo.
+          <br />Mi sto concentrando sullo{" "}
+          <b className="purple">sviluppo 3D</b>, creando ambienti interattivi ed
+          esperienze VR con Unreal Engine e Blender.
           <br />
-          Il mio background meccanico e la curiosità per la tecnologia mi hanno
-          portato verso l'<b className="purple">automazione industriale</b> e
-          gli strumenti <b className="purple">3D/creativi</b> come Blender e
-          Lightroom.
+          Il mio background meccanico e informatico, unito all'esperienza in
+          <b className="purple"> computer vision</b>, mi dà un approccio
+          strutturato e orientato al problem solving nei progetti immersivi.
           <br />
           <br />
-          Oltre al coding e all'AI, mi piace lavorare su progetti 3D,
-          sperimentare con la digital art ed esplorare nuove tecnologie.
+          Mi piace unire logica e creatività, sperimentare con workflow XR e
+          spingere un po' oltre il real-time ad ogni progetto.
         </>
       ),
       activities: [
-        "Progetti di computer vision e AI",
-        "Esperimenti di IoT e automazione industriale",
-        "Grafica 3D e creatività digitale",
+        "Esperienze 3D e VR in Unreal Engine",
+        "Modellazione Blender e setup scene",
+        "Computer vision/AI per sistemi interattivi",
       ],
       quote: "Imparo, costruisco e cresco un passo alla volta.",
     },

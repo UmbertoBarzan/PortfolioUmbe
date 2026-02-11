@@ -13,13 +13,13 @@ function Home() {
     en: {
       greeting: "Hi There!",
       im: "I'M",
-      subtitle: "Learning and growing in AI and Computer Vision.",
+      subtitle: "Learning and growing in 3D and immersive projects.",
     },
     it: {
       greeting: "Ciao!",
       im: "SONO",
       subtitle:
-        "Percorso di crescita nella Computer Vision e nell'intelligenza artificiale.",
+        "Percorso di crescita nel 3D e nei progetti immersivi.",
     },
   };
 

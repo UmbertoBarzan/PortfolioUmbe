@@ -666,11 +666,21 @@ button:focus {
 
 .school-project ul {
   color: rgba(255, 255, 255, 0.8);
-  padding-left: 1.2rem;
+  list-style: none;
+  padding-left: 0;
 }
 
 .school-project ul li {
   margin-bottom: 0.75rem;
+  position: relative;
+  padding-left: 1.2rem;
+}
+
+.school-project ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #c770f0;
 }
 
 .school-project-image {
@@ -762,6 +772,101 @@ button:focus {
   margin-bottom: 1rem;
 }
 
+.project-detail {
+  padding-top: 20px;
+}
+
+.project-detail-hero {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.project-detail-hero-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.project-detail-hero-image {
+  width: 100%;
+  max-width: 520px;
+  border-radius: 16px;
+  box-shadow: 0 24px 40px rgba(12, 8, 30, 0.55);
+}
+
+.project-detail-title {
+  font-size: 2.3rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.project-detail-subtitle {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+}
+
+.project-detail-text {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.project-detail-section {
+  margin-bottom: 50px;
+}
+
+.project-detail-section-title {
+  color: #fff;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.project-detail-list {
+  list-style: none;
+  padding-left: 0;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.project-detail-list li {
+  margin-bottom: 0.6rem;
+}
+
+.project-detail-gallery {
+  row-gap: 1.5rem;
+}
+
+.project-detail-gallery-image {
+  width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 16px 32px rgba(10, 8, 24, 0.45);
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.project-detail-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 20px 36px rgba(12, 8, 30, 0.55);
+}
+
+.project-detail-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.project-detail-empty {
+  color: rgba(255, 255, 255, 0.7);
+}
+
 .cv-project-text {
   color: rgba(255, 255, 255, 0.82);
   font-size: 1.02rem;
@@ -770,7 +875,8 @@ button:focus {
 
 .cv-project-list {
   color: rgba(255, 255, 255, 0.78);
-  padding-left: 1.3rem;
+  list-style: none;
+  padding-left: 0;
   margin: 1rem 0 1.8rem;
 }
 

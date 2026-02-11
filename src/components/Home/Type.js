@@ -6,16 +6,18 @@ function Type() {
 
   const stringsByLanguage = {
     en: [
-      "Learning Computer Vision",
-      "Exploring AI & IoT",
+      "3D Developer",
+      "Unreal Engine & VR",
+      "Blender",
+      "Building immersive projects",
       "Python Developer",
-      "Growing through Projects",
     ],
     it: [
-      "Studio Computer Vision",
-      "Sperimentazione su AI e IoT",
+      "Sviluppatore 3D",
+      "Unreal Engine e VR",
+      "Blender",
+      "Progetti immersivi in crescita",
       "Sviluppatore Python",
-      "Crescita attraverso i progetti",
     ],
   };
 

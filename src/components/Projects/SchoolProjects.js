@@ -3,6 +3,7 @@ import { Container, Row, Col, Image, Button, Modal, Carousel } from "react-boots
 import trafficSimulatorImg from "../../Assets/SchoolProjects/traffic-sim/traffic-simulator.png";
 import industrialSawImg from "../../Assets/SchoolProjects/industrial-saw/industrial-saw.png";
 import marsFarmCover from "../../Assets/SchoolProjects/mars-farm/1.png";
+import pwAirportImg from "../../Assets/SchoolProjects/PwAirport/PwAirport.png";
 import marsEn2 from "../../Assets/SchoolProjects/mars-farm/EN/2.png";
 import marsEn3 from "../../Assets/SchoolProjects/mars-farm/EN/3.png";
 import marsEn4 from "../../Assets/SchoolProjects/mars-farm/EN/4.png";
@@ -81,6 +82,27 @@ const contentByLanguage = {
       ],
       button: "View GitHub Repository",
       github: "https://github.com/UmbertoBarzan/IndustrialSaw",
+    },
+    pwAirport: {
+      title: "PW Airport",
+      description:
+        "Project that explores airport operations through a simulated environment, focusing on logistics flows, passenger movement, and coordination across key areas.",
+      bullets: [
+        {
+          highlight: "System simulation",
+          text: "mapping airport zones, traffic flows, and process sequences.",
+        },
+        {
+          highlight: "Team collaboration",
+          text: "shared responsibilities for planning, implementation, and testing.",
+        },
+        {
+          highlight: "Practical focus",
+          text: "emphasis on realistic constraints and operational logic.",
+        },
+      ],
+      button: "View GitHub Repository",
+      github: "https://github.com/UmbertoBarzan/PW-Airport",
     },
     mars: {
       title: "Mars Farm VR Experience",
@@ -174,6 +196,27 @@ const contentByLanguage = {
       button: "Apri il repository su GitHub",
       github: "https://github.com/UmbertoBarzan/IndustrialSaw",
     },
+    pwAirport: {
+      title: "PW Airport",
+      description:
+        "Progetto che esplora le operazioni aeroportuali tramite un ambiente simulato, con focus su logistica, flussi passeggeri e coordinamento tra le aree chiave.",
+      bullets: [
+        {
+          highlight: "Simulazione di sistema",
+          text: "mappatura delle zone, dei flussi e delle sequenze operative.",
+        },
+        {
+          highlight: "Collaborazione di team",
+          text: "condivisione di pianificazione, sviluppo e test.",
+        },
+        {
+          highlight: "Taglio pratico",
+          text: "attenzione a vincoli realistici e logiche operative.",
+        },
+      ],
+      button: "Apri il repository su GitHub",
+      github: "https://github.com/UmbertoBarzan/PW-Airport",
+    },
     mars: {
       title: "Mars Farm VR Experience",
       description:
@@ -208,7 +251,7 @@ const contentByLanguage = {
 
 function SchoolProjects() {
   const { language } = useLanguage();
-  const { heading, intro, traffic, saw, mars } =
+  const { heading, intro, traffic, saw, pwAirport, mars } =
     contentByLanguage[language] || contentByLanguage.en;
   const [showSlides, setShowSlides] = useState(false);
   const [slidesLanguage, setSlidesLanguage] = useState(language);
@@ -243,33 +286,29 @@ function SchoolProjects() {
           <Row className="align-items-center">
             <Col md={6} className="mb-4 mb-md-0 school-project-media">
               <Image
-                src={trafficSimulatorImg}
-                alt="Intelligent traffic simulator"
+                src={marsFarmCover}
+                alt="Mars Farm VR project cover"
                 className="school-project-image"
                 fluid
               />
             </Col>
             <Col md={6}>
-              <h2 className="school-project-title">{traffic.title}</h2>
-              <p>{traffic.description}</p>
+              <h2 className="school-project-title">{mars.title}</h2>
+              <p>{mars.description}</p>
               <ul>
-                {traffic.bullets.map(({ highlight, text }) => (
+                {mars.bullets.map(({ highlight, text }) => (
                   <li key={highlight}>
                     <span className="purple">{highlight}:</span> {text}
                   </li>
                 ))}
               </ul>
-              {traffic.github && (
-                <Button
-                  variant="primary"
-                  href={traffic.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-3"
-                >
-                  <BsGithub /> &nbsp;{traffic.button}
-                </Button>
-              )}
+              <Button
+                variant="primary"
+                className="mt-3"
+                onClick={() => openSlides(language)}
+              >
+                <BsImages /> &nbsp;{mars.slidesButton}
+              </Button>
             </Col>
           </Row>
         </section>
@@ -313,29 +352,68 @@ function SchoolProjects() {
           <Row className="align-items-center">
             <Col md={6} className="mb-4 mb-md-0 school-project-media">
               <Image
-                src={marsFarmCover}
-                alt="Mars Farm VR project cover"
+                src={pwAirportImg}
+                alt="PW Airport project cover"
                 className="school-project-image"
                 fluid
               />
             </Col>
             <Col md={6}>
-              <h2 className="school-project-title">{mars.title}</h2>
-              <p>{mars.description}</p>
+              <h2 className="school-project-title">{pwAirport.title}</h2>
+              <p>{pwAirport.description}</p>
               <ul>
-                {mars.bullets.map(({ highlight, text }) => (
+                {pwAirport.bullets.map(({ highlight, text }) => (
                   <li key={highlight}>
                     <span className="purple">{highlight}:</span> {text}
                   </li>
                 ))}
               </ul>
-              <Button
-                variant="primary"
-                className="mt-3"
-                onClick={() => openSlides(language)}
-              >
-                <BsImages /> &nbsp;{mars.slidesButton}
-              </Button>
+              {pwAirport.github && (
+                <Button
+                  variant="primary"
+                  href={pwAirport.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-3"
+                >
+                  <BsGithub /> &nbsp;{pwAirport.button}
+                </Button>
+              )}
+            </Col>
+          </Row>
+        </section>
+
+        <section className="school-project">
+          <Row className="align-items-center flex-column-reverse flex-md-row">
+            <Col md={6}>
+              <h2 className="school-project-title">{traffic.title}</h2>
+              <p>{traffic.description}</p>
+              <ul>
+                {traffic.bullets.map(({ highlight, text }) => (
+                  <li key={highlight}>
+                    <span className="purple">{highlight}:</span> {text}
+                  </li>
+                ))}
+              </ul>
+              {traffic.github && (
+                <Button
+                  variant="primary"
+                  href={traffic.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-3"
+                >
+                  <BsGithub /> &nbsp;{traffic.button}
+                </Button>
+              )}
+            </Col>
+            <Col md={6} className="mb-4 mb-md-0 school-project-media">
+              <Image
+                src={trafficSimulatorImg}
+                alt="Intelligent traffic simulator"
+                className="school-project-image"
+                fluid
+              />
             </Col>
           </Row>
         </section>
