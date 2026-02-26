@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+﻿import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
@@ -120,7 +120,7 @@ function NavBar() {
                 onClick={() => handleLanguageChange("it")}
                 aria-label="Italiano"
               >
-                🇮🇹
+                {"\uD83C\uDDEE\uD83C\uDDF9"}
               </button>
               <button
                 type="button"
@@ -128,7 +128,7 @@ function NavBar() {
                 onClick={() => handleLanguageChange("en")}
                 aria-label="English"
               >
-                🇬🇧
+                {"\uD83C\uDDEC\uD83C\uDDE7"}
               </button>
             </Nav.Item>
           </Nav>
@@ -139,3 +139,5 @@ function NavBar() {
 }
 
 export default NavBar;
+
+
