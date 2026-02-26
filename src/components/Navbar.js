@@ -10,6 +10,7 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
+import ReactCountryFlag from "react-country-flag";
 import { useLanguage } from "../context/LanguageContext";
 
 function NavBar() {
@@ -120,7 +121,7 @@ function NavBar() {
                 onClick={() => handleLanguageChange("it")}
                 aria-label="Italiano"
               >
-                <span className="language-flag language-flag--it" aria-hidden="true" />
+                <ReactCountryFlag countryCode="IT" svg className="language-flag" />
               </button>
               <button
                 type="button"
@@ -128,7 +129,7 @@ function NavBar() {
                 onClick={() => handleLanguageChange("en")}
                 aria-label="English"
               >
-                <span className="language-flag language-flag--en" aria-hidden="true" />
+                <ReactCountryFlag countryCode="GB" svg className="language-flag" />
               </button>
             </Nav.Item>
           </Nav>

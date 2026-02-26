@@ -213,8 +213,8 @@ button:focus {
 }
 
 .language-btn {
-  width: 34px;
-  height: 24px;
+  width: 40px;
+  height: 28px;
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.28);
   border-radius: 6px;
@@ -236,28 +236,10 @@ button:focus {
 
 .language-flag {
   display: block;
-  width: 24px;
-  height: 16px;
+  width: 30px;
+  height: 20px;
   border-radius: 2px;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25) inset;
-}
-
-.language-flag--it {
-  background: linear-gradient(
-    90deg,
-    #009246 0 33.33%,
-    #ffffff 33.33% 66.66%,
-    #ce2b37 66.66% 100%
-  );
-}
-
-.language-flag--en {
-  background-color: #012169;
-  background-image:
-    linear-gradient(90deg, transparent 40%, #ffffff 40% 60%, transparent 60%),
-    linear-gradient(0deg, transparent 40%, #ffffff 40% 60%, transparent 60%),
-    linear-gradient(90deg, transparent 45%, #c8102e 45% 55%, transparent 55%),
-    linear-gradient(0deg, transparent 45%, #c8102e 45% 55%, transparent 55%);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3) inset;
 }
 
 @media (max-width: 767px) {
