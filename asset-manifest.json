@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioUmbe/static/css/main.bcd0caf4.css",
-    "main.js": "/PortfolioUmbe/static/js/main.b5d60c04.js",
+    "main.css": "/PortfolioUmbe/static/css/main.5637660b.css",
+    "main.js": "/PortfolioUmbe/static/js/main.07ab51c5.js",
     "static/js/415.4d6acbeb.chunk.js": "/PortfolioUmbe/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/PortfolioUmbe/static/js/787.1ed0c42c.chunk.js",
     "static/media/3Dprojects.png": "/PortfolioUmbe/static/media/3Dprojects.d8ead9e914aaa5e7839a.png",
@@ -30,13 +30,13 @@
     "static/media/logo.png": "/PortfolioUmbe/static/media/logo.f86b45241d655032e9eb.png",
     "static/media/pre.svg": "/PortfolioUmbe/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/PortfolioUmbe/index.html",
-    "main.bcd0caf4.css.map": "/PortfolioUmbe/static/css/main.bcd0caf4.css.map",
-    "main.b5d60c04.js.map": "/PortfolioUmbe/static/js/main.b5d60c04.js.map",
+    "main.5637660b.css.map": "/PortfolioUmbe/static/css/main.5637660b.css.map",
+    "main.07ab51c5.js.map": "/PortfolioUmbe/static/js/main.07ab51c5.js.map",
     "415.4d6acbeb.chunk.js.map": "/PortfolioUmbe/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/PortfolioUmbe/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcd0caf4.css",
-    "static/js/main.b5d60c04.js"
+    "static/css/main.5637660b.css",
+    "static/js/main.07ab51c5.js"
   ]
 }
