@@ -213,20 +213,51 @@ button:focus {
 }
 
 .language-btn {
-  background: transparent;
-  border: none;
-  font-size: 1.3rem;
-  line-height: 1;
+  width: 34px;
+  height: 24px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
-  opacity: 0.6;
-  transition: transform 0.2s ease, opacity 0.2s ease;
-  padding: 0;
+  opacity: 0.85;
+  transition: transform 0.2s ease, opacity 0.2s ease, border-color 0.2s ease;
+  padding: 2px;
 }
 
 .language-btn:hover,
 .language-btn.active {
   opacity: 1;
   transform: translateY(-1px);
+  border-color: #c770f0;
+}
+
+.language-flag {
+  display: block;
+  width: 24px;
+  height: 16px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25) inset;
+}
+
+.language-flag--it {
+  background: linear-gradient(
+    90deg,
+    #009246 0 33.33%,
+    #ffffff 33.33% 66.66%,
+    #ce2b37 66.66% 100%
+  );
+}
+
+.language-flag--en {
+  background-color: #012169;
+  background-image:
+    linear-gradient(90deg, transparent 40%, #ffffff 40% 60%, transparent 60%),
+    linear-gradient(0deg, transparent 40%, #ffffff 40% 60%, transparent 60%),
+    linear-gradient(90deg, transparent 45%, #c8102e 45% 55%, transparent 55%),
+    linear-gradient(0deg, transparent 45%, #c8102e 45% 55%, transparent 55%);
 }
 
 @media (max-width: 767px) {

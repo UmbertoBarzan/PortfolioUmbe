@@ -120,7 +120,7 @@ function NavBar() {
                 onClick={() => handleLanguageChange("it")}
                 aria-label="Italiano"
               >
-                {"\uD83C\uDDEE\uD83C\uDDF9"}
+                <span className="language-flag language-flag--it" aria-hidden="true" />
               </button>
               <button
                 type="button"
@@ -128,7 +128,7 @@ function NavBar() {
                 onClick={() => handleLanguageChange("en")}
                 aria-label="English"
               >
-                {"\uD83C\uDDEC\uD83C\uDDE7"}
+                <span className="language-flag language-flag--en" aria-hidden="true" />
               </button>
             </Nav.Item>
           </Nav>
