@@ -3,6 +3,7 @@ import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import georiskImg from "../../Assets/Projects/3D/Georisk.png";
 import zenVrImg from "../../Assets/Projects/3D/ZenVR.png";
+import zenSenseImg from "../../Assets/Projects/3D/ZenSense.png";
 import { useLanguage } from "../../context/LanguageContext";
 import Particle from "../Particle";
 
@@ -19,11 +20,11 @@ const contentByLanguage = {
       {
         title: "GeoRisk Earthquake Experience",
         description:
-          "VR simulation commissioned by the Istituto Sismico di Gemona to communicate earthquake risk through an immersive narrative.",
+          "Educational VR experience on earthquakes and plate dynamics, with a multilingual interactive journey and haptic component.",
         highlights: [
-          "Immersive reconstruction of a seismic event with guided storytelling",
-          "Focus on awareness and learning through experience",
-          "Developed with two other interns for a real-world client",
+          "Immersive learning path with guided introduction and interactive content",
+          "Video, audio, and 360 rendered scenes integrated in the experience flow",
+          "Built to make seismic topics accessible without oversimplifying them",
         ],
         image: georiskImg,
         detailLink: "/3d-projects/georisk",
@@ -31,14 +32,26 @@ const contentByLanguage = {
       {
         title: "Zen VR",
         description:
-          "VR hub that lets users pick one of three screens, each playing a different 360 video created by a colleague for a company showcase.",
+          "Creative VR experience with selectable environments and 360 content.",
         highlights: [
-          "Simple navigation between three curated 360 video experiences",
-          "Optimized for quick demos and repeatable showcases",
-          "Designed as a lightweight entry point to VR content",
+          "Fixed immersive hub with three selectable screens",
+          "Each screen is linked to a different 360 content experience",
+          "Simple, direct interaction model for immediate use",
         ],
         image: zenVrImg,
         detailLink: "/3d-projects/zen-vr",
+      },
+      {
+        title: "Zen Sense",
+        description:
+          "Creative multisensory VR experience combining visuals, sound, and smell in an immersive path.",
+        highlights: [
+          "Guided immersive path with interactive moments",
+          "Audiovisual narrative designed to work with scent cues",
+          "Built to deliver a strong multisensory experience",
+        ],
+        image: zenSenseImg,
+        detailLink: "/3d-projects/zen-sense",
       },
     ],
     detailLabel: "View project",
@@ -55,11 +68,11 @@ const contentByLanguage = {
       {
         title: "Esperienza terremoto GeoRisk",
         description:
-          "Simulazione VR realizzata per l'Istituto Sismico di Gemona, pensata per comunicare il rischio sismico con una narrazione immersiva.",
+          "Esperienza VR educativa su terremoti e dinamica delle placche, con percorso multilingua interattivo e componente aptica.",
         highlights: [
-          "Ricostruzione immersiva dell'evento con storytelling guidato",
-          "Focus su consapevolezza e apprendimento esperienziale",
-          "Sviluppato con altri due stagisti per un cliente reale",
+          "Percorso immersivo con introduzione guidata e contenuti interattivi",
+          "Video, audio e render 360 integrati nel flusso esperienza",
+          "Pensato per spiegare temi sismici in modo chiaro senza banalizzarli",
         ],
         image: georiskImg,
         detailLink: "/3d-projects/georisk",
@@ -67,14 +80,26 @@ const contentByLanguage = {
       {
         title: "Zen VR",
         description:
-          "Hub VR che permette di scegliere tra tre schermi, ognuno con un video 360 diverso creato da un collega per una demo aziendale.",
+          "Esperienza VR creativa con ambienti selezionabili e contenuti 360.",
         highlights: [
-          "Navigazione semplice tra tre esperienze video 360 curate",
-          "Ottimizzato per demo rapide e ripetibili",
-          "Pensato come punto di accesso leggero ai contenuti VR",
+          "Hub immersivo fisso con tre schermi selezionabili",
+          "Ogni schermo e' collegato a un contenuto 360 differente",
+          "Interazione semplice e diretta, immediata da usare",
         ],
         image: zenVrImg,
         detailLink: "/3d-projects/zen-vr",
+      },
+      {
+        title: "Zen Sense",
+        description:
+          "Esperienza VR creativa e multisensoriale che unisce immagine, suono e olfatto in un percorso immersivo.",
+        highlights: [
+          "Percorso immersivo guidato con momenti interattivi",
+          "Narrazione audiovisiva pensata per lavorare con i trigger olfattivi",
+          "Progettato per offrire un'esperienza multisensoriale forte",
+        ],
+        image: zenSenseImg,
+        detailLink: "/3d-projects/zen-sense",
       },
     ],
     detailLabel: "Guarda progetto",

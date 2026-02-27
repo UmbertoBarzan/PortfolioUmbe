@@ -4,6 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import { useLanguage } from "../../context/LanguageContext";
 import georiskImg from "../../Assets/Projects/3D/Georisk.png";
 import zenVrImg from "../../Assets/Projects/3D/ZenVR.png";
+import zenSenseImg from "../../Assets/Projects/3D/ZenSense.png";
 import Particle from "../Particle";
 
 const contentByLanguage = {
@@ -19,14 +20,17 @@ const contentByLanguage = {
     projects: {
       georisk: {
         title: "GeoRisk Earthquake Experience",
-        subtitle: "VR simulation for seismic awareness and education.",
+        subtitle: "Educational VR journey about earthquakes and plate dynamics.",
         description:
-          "Immersive experience commissioned by the Istituto Sismico di Gemona. The project focuses on communicating earthquake risk through interactive storytelling and a guided VR journey.",
+          "GeoRisk is an educational VR experience designed as a complete immersive journey: guided introduction, video and audio content, 360 rendered scenes, and interactive levels focused on earthquakes, plate movement, and seismic risk. The goal is to turn complex geologic concepts into a clear, engaging, and practical experience.",
         roleTitle: "Focus",
         roleItems: [
-          "VR environment and narrative flow",
-          "Interactive storytelling for education",
-          "Team collaboration with two other interns",
+          "Multilingual system: Italian, English, German, and Friulian",
+          "Controller-based interactions with haptic component",
+          "Content pipeline combining video, audio, and 360 renders",
+          "Meta SDK and Meta Haptic Studio integration",
+          "Gameplay and interaction logic in Blueprints",
+          "Tools used: Unreal Engine 5.6 and Blender",
         ],
         heroImage: georiskImg,
         gallery: [georiskImg],
@@ -34,17 +38,35 @@ const contentByLanguage = {
       },
       "zen-vr": {
         title: "Zen VR",
-        subtitle: "VR hub with three 360 video experiences.",
+        subtitle: "Creative VR experience with selectable environments and 360 content.",
         description:
-          "Lightweight VR hub that lets users choose one of three screens, each playing a different 360 video. Built for fast demos and repeatable showcases.",
+          "Zen VR provides an immersive hub where users select one of three available screens and access 360 content through simple, direct navigation. The project was distributed in alpha release and will also be presented at the Far East Film Festival together with Zen Sense.",
         roleTitle: "Focus",
         roleItems: [
-          "Simple navigation and UI flow",
-          "Media integration for 360 content",
-          "Optimized for quick showcase sessions",
+          "Built in Unreal Engine 5.6",
+          "Asset and scene pipeline in Blender",
+          "Meta XR integration: Meta XR Plugin + Meta XR Interaction SDK with Meta Hand Interaction (hand tracking)",
+          "Interaction logic implemented in Blueprints",
         ],
         heroImage: zenVrImg,
         gallery: [zenVrImg],
+        videoUrl: "",
+      },
+      "zen-sense": {
+        title: "Zen Sense",
+        subtitle: "Creative multisensory VR experience combining visuals, sound, and smell.",
+        description:
+          "Zen Sense is an immersive experience designed as a guided path, where interaction, audiovisual content, and the olfactory component work together within the same narrative flow. The project will be presented at the Far East Film Festival together with Zen VR.",
+        roleTitle: "Focus",
+        roleItems: [
+          "Built in Unreal Engine 5.6",
+          "Asset and scene pipeline in Blender",
+          "API integration for scent device control",
+          "Meta XR integration: Meta XR Plugin + Meta XR Interaction SDK with Meta Hand Interaction (hand tracking)",
+          "Interaction logic implemented in Blueprints",
+        ],
+        heroImage: zenSenseImg,
+        gallery: [zenSenseImg],
         videoUrl: "",
       },
     },
@@ -61,14 +83,17 @@ const contentByLanguage = {
     projects: {
       georisk: {
         title: "Esperienza terremoto GeoRisk",
-        subtitle: "Simulazione VR per la divulgazione del rischio sismico.",
+        subtitle: "Percorso VR educativo su terremoti e dinamica delle placche.",
         description:
-          "Esperienza immersiva commissionata dall'Istituto Sismico di Gemona. Il progetto punta a comunicare il rischio sismico attraverso storytelling e un percorso VR guidato.",
+          "GeoRisk e' un'esperienza VR educativa costruita come percorso immersivo completo: introduzione guidata, contenuti video e audio, scene con render 360 e livelli interattivi dedicati alla comprensione di terremoti, movimento delle placche e rischio sismico. L'obiettivo e' trasformare concetti geologici complessi in un'esperienza chiara, coinvolgente e concreta.",
         roleTitle: "Focus",
         roleItems: [
-          "Ambiente VR e flusso narrativo",
-          "Storytelling interattivo per la divulgazione",
-          "Collaborazione con altri due stagisti",
+          "Sistema multilingua: italiano, inglese, tedesco e friulano",
+          "Interazioni via controller con componente aptica",
+          "Pipeline contenuti: video, audio e render 360 integrati nel flusso esperienza",
+          "Integrazione Meta SDK e Meta Haptic Studio",
+          "Sviluppo logiche e interazioni in Blueprint",
+          "Strumenti usati: Unreal Engine 5.6 e Blender",
         ],
         heroImage: georiskImg,
         gallery: [georiskImg],
@@ -76,17 +101,35 @@ const contentByLanguage = {
       },
       "zen-vr": {
         title: "Zen VR",
-        subtitle: "Hub VR con tre esperienze video 360.",
+        subtitle: "Esperienza VR creativa con ambienti selezionabili e contenuti 360.",
         description:
-          "Hub VR leggero che permette di scegliere uno dei tre schermi, ognuno con un video 360 differente. Pensato per demo rapide e ripetibili.",
+          "Zen VR offre un hub immersivo in cui l'utente seleziona uno dei tre schermi disponibili e accede a contenuti 360 con una navigazione semplice e immediata. Il progetto e' stato distribuito in release alpha e sara' presentato anche al Far East Film Festival insieme a Zen Sense.",
         roleTitle: "Focus",
         roleItems: [
-          "Navigazione semplice e flusso UI",
-          "Integrazione media per contenuti 360",
-          "Ottimizzato per sessioni demo rapide",
+          "Sviluppato in Unreal Engine 5.6",
+          "Pipeline asset e scene in Blender",
+          "Integrazione Meta XR: Meta XR Plugin + Meta XR Interaction SDK con Meta Hand Interaction (hand tracking)",
+          "Logiche di interazione implementate in Blueprint",
         ],
         heroImage: zenVrImg,
         gallery: [zenVrImg],
+        videoUrl: "",
+      },
+      "zen-sense": {
+        title: "Zen Sense",
+        subtitle: "Esperienza VR creativa e multisensoriale che unisce immagine, suono e olfatto.",
+        description:
+          "Zen Sense e' un'esperienza immersiva costruita come percorso guidato, dove interazione, contenuti audiovisivi e componente olfattiva lavorano insieme nella stessa narrazione. Il progetto sara' presentato al Far East Film Festival insieme a Zen VR.",
+        roleTitle: "Focus",
+        roleItems: [
+          "Sviluppato in Unreal Engine 5.6",
+          "Pipeline asset e scene in Blender",
+          "Integrazione API per controllo dispositivo olfattivo",
+          "Integrazione Meta XR: Meta XR Plugin + Meta XR Interaction SDK con Meta Hand Interaction (hand tracking)",
+          "Logiche di interazione implementate in Blueprint",
+        ],
+        heroImage: zenSenseImg,
+        gallery: [zenSenseImg],
         videoUrl: "",
       },
     },
