@@ -4,6 +4,8 @@ import trafficSimulatorImg from "../../Assets/SchoolProjects/traffic-sim/traffic
 import industrialSawImg from "../../Assets/SchoolProjects/industrial-saw/industrial-saw.png";
 import marsFarmCover from "../../Assets/SchoolProjects/mars-farm/1.png";
 import pwAirportImg from "../../Assets/SchoolProjects/PwAirport/PwAirport.png";
+import pwUnityVideo from "../../Assets/SchoolProjects/PwAirport/PwAirportUnity.mp4";
+import pwUnrealVideo from "../../Assets/SchoolProjects/PwAirport/PwUnrealTrailer.mp4";
 import marsEn2 from "../../Assets/SchoolProjects/mars-farm/EN/2.png";
 import marsEn3 from "../../Assets/SchoolProjects/mars-farm/EN/3.png";
 import marsEn4 from "../../Assets/SchoolProjects/mars-farm/EN/4.png";
@@ -351,12 +353,24 @@ function SchoolProjects() {
         <section className="school-project">
           <Row className="align-items-center">
             <Col md={6} className="mb-4 mb-md-0 school-project-media">
-              <Image
-                src={pwAirportImg}
-                alt="PW Airport project cover"
-                className="school-project-image"
-                fluid
-              />
+              <div className="mb-3">
+                <h5 className="mb-2">Unity</h5>
+                <video
+                  controls
+                  className="school-project-video"
+                  src={pwUnityVideo}
+                  poster={pwAirportImg}
+                />
+              </div>
+              <div>
+                <h5 className="mb-2">Unreal Engine</h5>
+                <video
+                  controls
+                  className="school-project-video"
+                  src={pwUnrealVideo}
+                  poster={pwAirportImg}
+                />
+              </div>
             </Col>
             <Col md={6}>
               <h2 className="school-project-title">{pwAirport.title}</h2>

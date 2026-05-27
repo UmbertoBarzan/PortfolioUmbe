@@ -2,9 +2,11 @@ import React from "react";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import { Link, useParams } from "react-router-dom";
 import { useLanguage } from "../../context/LanguageContext";
-import georiskImg from "../../Assets/Projects/3D/Georisk.png";
-import zenVrImg from "../../Assets/Projects/3D/ZenVR.png";
-import zenSenseImg from "../../Assets/Projects/3D/ZenSense.png";
+import georiskImg from "../../Assets/Projects/3D/Georisk/Georisk.png";
+import zenVrImg from "../../Assets/Projects/3D/ZenVR/ZenVR.png";
+import zenSenseImg from "../../Assets/Projects/3D/ZenSense/ZenSense.png";
+import zenVrVideo from "../../Assets/Projects/3D/ZenVR/TrailerZenVR.mp4";
+import zenSenseVideo from "../../Assets/Projects/3D/ZenSense/TrailerZenSense.mp4";
 import Particle from "../Particle";
 
 const contentByLanguage = {
@@ -50,7 +52,7 @@ const contentByLanguage = {
         ],
         heroImage: zenVrImg,
         gallery: [zenVrImg],
-        videoUrl: "",
+        videoUrl: zenVrVideo,
       },
       "zen-sense": {
         title: "Zen Sense",
@@ -67,7 +69,7 @@ const contentByLanguage = {
         ],
         heroImage: zenSenseImg,
         gallery: [zenSenseImg],
-        videoUrl: "",
+        videoUrl: zenSenseVideo,
       },
     },
   },
@@ -219,15 +221,25 @@ function ThreeDProjectDetail() {
             {content.sections.video}
           </h2>
           {project.videoUrl ? (
-            <div className="project-detail-video">
-              <iframe
-                title={`${project.title} video`}
-                src={project.videoUrl}
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
-            </div>
+            project.videoUrl.toString().endsWith(".mp4") ? (
+              <div className="project-detail-video">
+                <video
+                  controls
+                  className="w-100"
+                  src={project.videoUrl}
+                />
+              </div>
+            ) : (
+              <div className="project-detail-video">
+                <iframe
+                  title={`${project.title} video`}
+                  src={project.videoUrl}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            )
           ) : (
             <p className="project-detail-empty">{content.emptyVideo}</p>
           )}

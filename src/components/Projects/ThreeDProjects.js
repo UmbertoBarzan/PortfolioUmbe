@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import georiskImg from "../../Assets/Projects/3D/Georisk.png";
-import zenVrImg from "../../Assets/Projects/3D/ZenVR.png";
-import zenSenseImg from "../../Assets/Projects/3D/ZenSense.png";
+import georiskImg from "../../Assets/Projects/3D/Georisk/Georisk.png";
+import zenVrImg from "../../Assets/Projects/3D/ZenVR/ZenVR.png";
+import zenSenseImg from "../../Assets/Projects/3D/ZenSense/ZenSense.png";
 import { useLanguage } from "../../context/LanguageContext";
 import Particle from "../Particle";
 
